@@ -1,16 +1,11 @@
-Yii 2 Basic Project Template
+Yii 2 - Sample Blog Project
 ============================
 
-Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-rapidly creating small projects.
+This is a demo project I've built while learning Yii 2 and to showcase my programming skills. 
 
-The template contains the basic features including user login/logout and a contact page.
+The project contains the basic features including user login/logout and a contact page.
 It includes all commonly used configurations that would allow you to focus on adding new
 features to your application.
-
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-app-basic/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-app-basic/downloads.png)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-app-basic.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-basic)
 
 DIRECTORY STRUCTURE
 -------------------
@@ -99,4 +94,5 @@ return [
 **NOTE:** Yii won't create the database for you, this has to be done manually before you can access it.
 
 Also check and edit the other files in the `config/` directory to customize your application.
-# yii_blog
+
+A sample populated DB can be found under db/mysql_dump.sql
