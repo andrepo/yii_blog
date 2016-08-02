@@ -1,6 +1,9 @@
 # phpstorm project files
 .idea
 
+# Komodo Project
+.komodoproject
+
 # netbeans project files
 nbproject
 

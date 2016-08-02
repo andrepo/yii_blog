@@ -27,7 +27,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img src="'.Yii::$app->urlManager->baseUrl.'/img/xo-logo-white.png" style="margin-top: -14px;">',
+        'brandLabel' => 'Yii 2 News Blog',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
