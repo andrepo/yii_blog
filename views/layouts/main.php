@@ -87,7 +87,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; Crossover <?= date('Y') ?></p>
+        <p class="pull-left">&copy; André Paterlini Oliveira Vieira <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
