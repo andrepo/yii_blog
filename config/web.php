@@ -3,8 +3,8 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-    'id' => 'xo_news',
-    'name' => 'Crossover News',
+    'id' => 'yii_blog',
+    'name' => 'Yii Blog',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
@@ -95,7 +95,7 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
-        'allowedIPs' => ['127.0.0.1', '::1', '192.168.11.*'] // retricted to IPs on local network for security reasons
+        'allowedIPs' => ['127.0.0.1', '::1'] // retricted to IPs on local network for security reasons
     ];
 }
 
