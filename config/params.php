@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'adminEmail' => 'replyto@crossover-news.com',
+    'adminEmail' => 'andrepo@gmail.com',
 ];
